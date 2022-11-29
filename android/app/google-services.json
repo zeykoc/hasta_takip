@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "599596226007",
+    "project_id": "hastatakip-77351",
+    "storage_bucket": "hastatakip-77351.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:599596226007:android:941037c615fc4a94d7a792",
+        "android_client_info": {
+          "package_name": "com.example.hastatakip"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "599596226007-fq110oqlfmbfrfbov4je4egu1l6qkc29.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEU8Kbj86T0PGCBSPA9-508zoF3yHgiCE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "599596226007-fq110oqlfmbfrfbov4je4egu1l6qkc29.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
