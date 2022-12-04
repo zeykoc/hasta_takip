@@ -6,8 +6,51 @@ import 'package:hastatakip/ekranlar/model/soru_model.dart';
 class HastalikBelirleController extends GetxController {
   List<SoruModel> soruModelList = [];
   List<SonucModel> sonucModelList = [
-    SonucModel(id: 011111, sonuc: "Bir hastalık kuruluşuna başvurunuz"),
-    SonucModel(id: 011112, sonuc: "Derhal bir hastaneye gidiniz"),
+    SonucModel(
+        id: 011111,
+        sonuc:
+            "Yüksek ihtimalle sinüzit olabilirsiniz.Burun bölgesinin açılması için sıcak bir banyo veya soğuk kompres tavsiye ederiz.Ayrıca uyurken yüksek yastık tercih edebilirsiniz."),
+    SonucModel(
+        id: 012111,
+        sonuc:
+            "Yüksek Tansiyon hastası olabilirsiniz.Bir sağlık kuruluşuna başvurunuz."),
+    SonucModel(
+        id: 021111,
+        sonuc:
+            "Mide bulantınıza iyi gelmesi için az tuzlu kraker yiyebilirsiniz.Rezene çayı da mide bulantınıza iyi gelecektir.Bunun için bir bardak kaynar suya bir çay kaşığı rezene tohumu ekleyin, 10 dakika demledikten sonra süzün ve tüketin.şikatetleriniz 1 gün içinde geçmezse bir sağlık kuruluşuna başvurun."),
+    SonucModel(id: 021112, sonuc: "Acil bir sağlık kuruluşuna başvurun."),
+    SonucModel(
+        id: 02222,
+        sonuc:
+            "Yediğiniz birşey dokunmuş olabilir.Papatya veya rezene çayı tüketebilirsiniz.Haşlanmış patatesi tuzlayıp yiyebilirsiniz. Limon,nane ve elma gibi ferahlatıcı besinlerde şikayetlerinize iyi gelecektir."),
+    SonucModel(
+        id: 031111,
+        sonuc:
+            "Covid-19 olabilirsiniz. Derhal en yakın acil sağlık kuruluşuna gidip test yaptırmalısınız!"),
+    SonucModel(
+        id: 04111, sonuc: "Derhal en yakın sağlık kuruluşuna başvurunuz."),
+    SonucModel(
+        id: 042111,
+        sonuc: "Bir göğüs hastalıkları uzmanına görünmenizde fayda var."),
+    SonucModel(
+        id: 042211,
+        sonuc: "Bir göğüs hastalıkları uzmanına görünmenizde fayda var."),
+    SonucModel(
+        id: 05111,
+        sonuc:
+            "Soğuk algınlığı olabilir.Zencefil, bal, ıhlamur çayı ve bol C vitamini tüketebilirsiniz.Düşmeyen areş olursa derhal bir sağlık kuruluşuna başvurunuz."),
+    SonucModel(
+        id: 011112, sonuc: "Bir sağlık kuruluşuna görünmenizde fayda var."),
+    SonucModel(
+        id: 031211,
+        sonuc:
+            "Grip olabilirsiniz.Bir hekim dahilinde ilaç tedavisine başlamanızı öneririz."),
+    SonucModel(id: 021112, sonuc: "Acil bir sağlık kuruluşuna başvurun."),
+    SonucModel(id: 021112, sonuc: "Acil bir sağlık kuruluşuna başvurun."),
+    SonucModel(id: 021112, sonuc: "Acil bir sağlık kuruluşuna başvurun."),
+    SonucModel(id: 021112, sonuc: "Acil bir sağlık kuruluşuna başvurun."),
+    SonucModel(id: 021112, sonuc: "Acil bir sağlık kuruluşuna başvurun."),
+    SonucModel(id: 021112, sonuc: "Acil bir sağlık kuruluşuna başvurun."),
   ];
 
   SonucModel idYeGoreSonucModel(int id) {

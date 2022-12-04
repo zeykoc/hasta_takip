@@ -1,10 +1,20 @@
 class HastaliklarModel {
   String name;
   String kisaAciklama;
-  String imageUrl;
+  String uzunAciklama;
+  List<String> belirtiMaddeleri;
+  List<String> korunmaYontemleri;
+  String baslik;
+  String belirtileri;
+  String korunmaYollari;
   HastaliklarModel({
+    required this.belirtileri,
+    required this.korunmaYollari,
     required this.name,
-    required this.imageUrl,
+    required this.baslik,
     required this.kisaAciklama,
+    required this.uzunAciklama,
+    required this.belirtiMaddeleri,
+    required this.korunmaYontemleri,
   });
 }

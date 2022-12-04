@@ -15,7 +15,6 @@ class HastalikBelirle extends StatefulWidget {
 class _HastalikBelirleState extends State<HastalikBelirle> {
   HastalikBelirleController hastalikBelirleController =
       HastalikBelirleController();
-
   @override
   void initState() {
     super.initState();
@@ -87,7 +86,7 @@ class _HastalikBelirleState extends State<HastalikBelirle> {
                 if (hastalikBelirleController.idvarmi(model.siklar[i].id)) {
                   SonucModel sonucModel = hastalikBelirleController
                       .idYeGoreSonucModel(model.siklar[i].id);
-                  print(sonucModel.sonuc);
+                  sonucGoster(sonucModel);
                 } else {
                   hastalikBelirleController.soruModelList[index].verilenCevap =
                       model.siklar[i].secenek;
@@ -110,6 +109,19 @@ class _HastalikBelirleState extends State<HastalikBelirle> {
           )
         ],
       );
+  void sonucGoster(SonucModel value) {
+    showDialog(
+      context: context,
+      builder: (context) => AlertDialog(
+        content: Column(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            Text(value.sonuc),
+          ],
+        ),
+      ),
+    );
+  }
 
   Widget _sikLar(String value, bool isCevap) => Padding(
         padding: const EdgeInsets.all(8.0),
