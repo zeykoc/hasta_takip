@@ -7,13 +7,12 @@ class HastalikBelirleController extends GetxController {
   List<SoruModel> soruModelList = [];
   List<SonucModel> sonucModelList = [
     SonucModel(
-        id: 011111,
+        id: 1211,
         sonuc:
-            "Yüksek ihtimalle sinüzit olabilirsiniz.Burun bölgesinin açılması için sıcak bir banyo veya soğuk kompres tavsiye ederiz.Ayrıca uyurken yüksek yastık tercih edebilirsiniz."),
-    SonucModel(
-        id: 012111,
-        sonuc:
-            "Yüksek Tansiyon hastası olabilirsiniz.Bir sağlık kuruluşuna başvurunuz."),
+            "Yüksek ihtimalle yüksek tansiyon hastası olabilirsiniz.Bir sağlık kuruluşuna başvurunuz. "),
+    SonucModel(id: 1212, sonuc: "Bir sağlık kuruluşuna başvurunuz."),
+    SonucModel(id: 11111, sonuc: "sonuç az sonucu"),
+    SonucModel(id: 11112, sonuc: "sonuç çok sonucu"),
     SonucModel(
         id: 021111,
         sonuc:
@@ -40,14 +39,13 @@ class HastalikBelirleController extends GetxController {
         sonuc:
             "Soğuk algınlığı olabilir.Zencefil, bal, ıhlamur çayı ve bol C vitamini tüketebilirsiniz.Düşmeyen areş olursa derhal bir sağlık kuruluşuna başvurunuz."),
     SonucModel(
-        id: 011112, sonuc: "Bir sağlık kuruluşuna görünmenizde fayda var."),
-    SonucModel(
         id: 031211,
         sonuc:
             "Grip olabilirsiniz.Bir hekim dahilinde ilaç tedavisine başlamanızı öneririz."),
-    SonucModel(id: 021112, sonuc: "Acil bir sağlık kuruluşuna başvurun."),
-    SonucModel(id: 021112, sonuc: "Acil bir sağlık kuruluşuna başvurun."),
-    SonucModel(id: 021112, sonuc: "Acil bir sağlık kuruluşuna başvurun."),
+    SonucModel(
+        id: 122,
+        sonuc:
+            "Migren, stres, yorgunluk ve susuzluk gibi nedenler başın arka kısmında ağrı yapabilir. Bir doktora görünmenizde fayda var."),
     SonucModel(id: 021112, sonuc: "Acil bir sağlık kuruluşuna başvurun."),
     SonucModel(id: 021112, sonuc: "Acil bir sağlık kuruluşuna başvurun."),
     SonucModel(id: 021112, sonuc: "Acil bir sağlık kuruluşuna başvurun."),
@@ -78,117 +76,75 @@ class HastalikBelirleController extends GetxController {
   }
 
   void soruekle(int id) {
-    if (id == 01) {
+    if (id == 1) {
       soruModelList.add(
         SoruModel(
-          id: 01,
+          id: 1,
           soru: "Baş ağrınızı hisettiğiniz kısım?",
           siklar: [
-            Secenek(id: 011, secenek: "ön"),
-            Secenek(id: 012, secenek: "arka"),
+            Secenek(id: 11, secenek: "ön"),
+            Secenek(id: 12, secenek: "arka"),
           ],
         ),
       );
-    } else if (id == 011) {
+    } else if (id == 11) {
       soruModelList.add(
         SoruModel(
-          id: 011,
-          soru: "Burun akıntınız var mı?",
+          id: 11,
+          soru: "Burun akıntısı var mı ",
           siklar: [
-            Secenek(id: 0111, secenek: "evet"),
-            Secenek(id: 0112, secenek: "hayır"),
+            Secenek(id: 111, secenek: "evet"),
+            Secenek(id: 12, secenek: "hayır"),
           ],
         ),
       );
-    } else if (id == 012) {
+    } else if (id == 111) {
       soruModelList.add(
         SoruModel(
-          id: 012,
-          soru: "Alın bölgenizde ağrı hissediyor musunuz?",
+          id: 111,
+          soru: "yüzünüzün alın kısmında bir ağrı var mı ",
           siklar: [
-            Secenek(id: 0121, secenek: "evet"),
-            Secenek(id: 0122, secenek: "hayır"),
+            Secenek(id: 1111, secenek: "evet"),
+            Secenek(id: 121, secenek: "hayır"),
           ],
         ),
       );
-    } else if (id == 0111) {
+    } else if (id == 1111) {
       soruModelList.add(
         SoruModel(
-          id: 0111,
-          soru: "Yüzünüzün alın kısmında bir ağrı var mı?",
+          id: 1111,
+          soru: "ağrı şiddetiniz nedir",
           siklar: [
-            Secenek(id: 01111, secenek: "evet"),
-            Secenek(id: 01112, secenek: "hayır"),
+            Secenek(id: 11111, secenek: "az"),
+            Secenek(id: 11112, secenek: "çok"),
           ],
         ),
       );
-    } else if (id == 01111) {
+    } else if (id == 12) {
       soruModelList.add(
         SoruModel(
-          id: 01111,
-          soru: "Ağrınızın şiddeti nedir?",
+          id: 12,
+          soru: "Alın bölgenizde ağrı var mı ",
           siklar: [
-            Secenek(id: 011111, secenek: "az"),
-            Secenek(id: 011112, secenek: "çok"),
+            Secenek(id: 121, secenek: "evet"),
+            Secenek(id: 122, secenek: "hayır"),
           ],
         ),
       );
-    } else if (id == 01111) {
+    } else if (id == 121) {
       soruModelList.add(
         SoruModel(
-          id: 01111,
-          soru: "Yüzünüzün alın kısmında bir ağrı hissediyor musunuz?",
+          id: 121,
+          soru: "sık sık idrara çıkıyor musunuz",
           siklar: [
-            Secenek(id: 011111, secenek: "evet"),
-            Secenek(id: 011112, secenek: "hayır"),
+            Secenek(id: 1211, secenek: "evet"),
+            Secenek(id: 1212, secenek: "hayır"),
           ],
         ),
       );
-    } else if (id == 0121) {
-      soruModelList.add(
-        SoruModel(
-          id: 0121,
-          soru: "Yüzünüzün alın kısmında bir ağrı hissediyor musunuz?",
-          siklar: [
-            Secenek(id: 01211, secenek: "evet"),
-            Secenek(id: 01212, secenek: "hayır"),
-          ],
-        ),
-      );
-    } else if (id == 01211) {
-      soruModelList.add(
-        SoruModel(
-          id: 01211,
-          soru: "Sık sık idrara çıkıyor musunuz?",
-          siklar: [
-            Secenek(id: 012111, secenek: "evet"),
-            Secenek(id: 012122, secenek: "hayır"),
-          ],
-        ),
-      );
-    } else if (id == 0122) {
-      soruModelList.add(
-        SoruModel(
-          id: 0122,
-          soru: "Burun akıntısınız var mı?",
-          siklar: [
-            Secenek(id: 01221, secenek: "evet"),
-            Secenek(id: 01222, secenek: "hayır"),
-          ],
-        ),
-      );
-    } else if (id == 0112) {
-      soruModelList.add(
-        SoruModel(
-          id: 0112,
-          soru: "Yüzünüzün alın kısmında ağrı var mı?",
-          siklar: [
-            Secenek(id: 01121, secenek: "evet"),
-            Secenek(id: 01122, secenek: "hayır"),
-          ],
-        ),
-      );
-    } //---------------------------------------------------------
+    }
+
+    //---------------------------------------------------------
     if (id == 02) {
       soruModelList.add(
         SoruModel(
