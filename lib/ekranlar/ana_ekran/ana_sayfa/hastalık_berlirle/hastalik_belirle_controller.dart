@@ -14,41 +14,67 @@ class HastalikBelirleController extends GetxController {
     SonucModel(id: 11111, sonuc: "sonuç az sonucu"),
     SonucModel(id: 11112, sonuc: "sonuç çok sonucu"),
     SonucModel(
-        id: 021111,
+        id: 21111,
         sonuc:
-            "Mide bulantınıza iyi gelmesi için az tuzlu kraker yiyebilirsiniz.Rezene çayı da mide bulantınıza iyi gelecektir.Bunun için bir bardak kaynar suya bir çay kaşığı rezene tohumu ekleyin, 10 dakika demledikten sonra süzün ve tüketin.şikatetleriniz 1 gün içinde geçmezse bir sağlık kuruluşuna başvurun."),
-    SonucModel(id: 021112, sonuc: "Acil bir sağlık kuruluşuna başvurun."),
+            "1 gün içinde şikayetleriniz geçmezse bir acil sağlık kuruluşuna başvurunuz."),
+    SonucModel(id: 21112, sonuc: "acil bir sağlık kuruluşuna başvurunuz"),
     SonucModel(
-        id: 02222,
+        id: 2112,
         sonuc:
-            "Yediğiniz birşey dokunmuş olabilir.Papatya veya rezene çayı tüketebilirsiniz.Haşlanmış patatesi tuzlayıp yiyebilirsiniz. Limon,nane ve elma gibi ferahlatıcı besinlerde şikayetlerinize iyi gelecektir."),
+            "Midenize iyi gelebilecek bir bitki çayı içebeilirsiniz. Rezene veya paptya çayı tüketmenizde fayda var.Dilerseniz içine bir tatlı kaşığı bal katabilirsiniz."),
     SonucModel(
-        id: 031111,
+        id: 222,
         sonuc:
-            "Covid-19 olabilirsiniz. Derhal en yakın acil sağlık kuruluşuna gidip test yaptırmalısınız!"),
+            "yediğiniz bir şey dokunmuş olabilir. Papatya çayı veya rezene çayı tüketebilirsiniz. Haşlanmış patatesi tuzlayıp yiyebilirsiniz. Limon, nane ve elma gibi ferahlatıcı besinler tüketebilirsiniz."),
     SonucModel(
-        id: 04111, sonuc: "Derhal en yakın sağlık kuruluşuna başvurunuz."),
+        id: 312,
+        sonuc:
+            "Grip olabilirisiniz. Tavuk çorbası, paça çorbası, portakal, greyfurt, mandalina, limonlu çay, kuşburnu gibi besinler grip hastalığına faydalı besinlerdir."),
     SonucModel(
-        id: 042111,
+        id: 3112,
+        sonuc:
+            "Soğuk algınlığı yaşıyor olabilirsiniz. Ateşinizi düşürmek için temiz bir bezi sirkeli suyla ıslatıp koltuk altınıza ve alnınıza koyunuz."),
+    SonucModel(
+        id: 31112,
+        sonuc:
+            "Grip olabilirisiniz. Tavuk çorbası, paça çorbası, portakal, greyfurt, mandalina, limonlu çay, kuşburnu gibi besinler grip hastalığına faydalı besinlerdir."),
+    SonucModel(
+        id: 31111,
+        sonuc:
+            "Covid olabilirsiniz. En yakın sağlık kuruluşuna gidip test yaptırmanızı öneririz.."),
+    SonucModel(id: 411, sonuc: "Derhal bir sağlık kuruluşuna başvurunuz."),
+    SonucModel(
+        id: 4121,
+        sonuc:
+            "Covid olabilirsiniz. En yakın sağlık kuruluşuna gidip covid testi yaptırmanızı öneririz."),
+    SonucModel(
+        id: 4122,
+        sonuc:
+            "Sinüzit olabilirsiniz. Bol sıvı tüketerek mukus tabakasının incelmesini sağlayın. Bulunduğunuz ortam nemsiz ve havasız olmasın. Uygun şartlarda nemlendirin. Sigara kullanmayın. Sıcak su ile tuzu karıştırın. Ilık kıvama getirip burnunuza sıkın. Baharatlı yiyecekler sinüzitinize iyi gelecelektir."),
+    SonucModel(
+        id: 4211,
+        sonuc:
+            "Nezle olabilirsiniz. Boğazınızı rahatlatmak için pastil kullanabilirsiniz. Balgam atmak için eczanelerden balgam söktürücü ilaçlar almanızı tavsiye ederiz."),
+    SonucModel(
+        id: 42121,
         sonuc: "Bir göğüs hastalıkları uzmanına görünmenizde fayda var."),
     SonucModel(
-        id: 042211,
-        sonuc: "Bir göğüs hastalıkları uzmanına görünmenizde fayda var."),
-    SonucModel(
-        id: 05111,
+        id: 422,
         sonuc:
-            "Soğuk algınlığı olabilir.Zencefil, bal, ıhlamur çayı ve bol C vitamini tüketebilirsiniz.Düşmeyen areş olursa derhal bir sağlık kuruluşuna başvurunuz."),
+            "Grip başlangıcı olabilir. Bol sıvı almalı ve yatak istirahati yapmalısınız. Bolca taze meyve ve sebze tüketmelisiniz. Ellerinizi sık sık yıkamalısınız."),
     SonucModel(
-        id: 031211,
+        id: 5111,
         sonuc:
-            "Grip olabilirsiniz.Bir hekim dahilinde ilaç tedavisine başlamanızı öneririz."),
+            "oluşan balgamınız için iltihap önleyici ve balgam söktürücü özelliği bulunan meyan kökü bitkisini tüketebilirsiniz."),
     SonucModel(
-        id: 122,
+        id: 5112,
         sonuc:
-            "Migren, stres, yorgunluk ve susuzluk gibi nedenler başın arka kısmında ağrı yapabilir. Bir doktora görünmenizde fayda var."),
-    SonucModel(id: 021112, sonuc: "Acil bir sağlık kuruluşuna başvurun."),
-    SonucModel(id: 021112, sonuc: "Acil bir sağlık kuruluşuna başvurun."),
-    SonucModel(id: 021112, sonuc: "Acil bir sağlık kuruluşuna başvurun."),
+            "soğuk algınlığı olabilir. Zencefil-bal, ıhlamur çayı ve bol C vitamini tüketebilirsiniz. Düşmeyen ateş olursa derhal bir sağlık kuruluşuna başvurunuz"),
+    SonucModel(id: 512, sonuc: "Bir sağlık kuruluşuna görünmenizde fayda var"),
+    SonucModel(
+        id: 522,
+        sonuc:
+            "covid olabilirsiniz. En yakın sağlık kuruluşuna gidip test yaptırmanızı öneririrz."),
   ];
 
   SonucModel idYeGoreSonucModel(int id) {
@@ -143,272 +169,219 @@ class HastalikBelirleController extends GetxController {
         ),
       );
     }
-
     //---------------------------------------------------------
-    if (id == 02) {
+    else if (id == 2) {
       soruModelList.add(
         SoruModel(
-          id: 02,
-          soru: "Midenizde ağrı oluyor mu?",
+          id: 2,
+          soru: "Midenizde Ağrı Var mı?",
           siklar: [
-            Secenek(id: 021, secenek: "evet"),
-            Secenek(id: 022, secenek: "hayır"),
+            Secenek(id: 21, secenek: "Evet"),
+            Secenek(id: 22, secenek: "Hayır"),
           ],
         ),
       );
-    } else if (id == 021) {
+    } else if (id == 21) {
       soruModelList.add(
         SoruModel(
-          id: 021,
-          soru: "Midenizde yanma oluyor mu?",
+          id: 21,
+          soru: "Midenizde yanma var mı ?",
           siklar: [
-            Secenek(id: 0211, secenek: "evet"),
-            Secenek(id: 0212, secenek: "hayır"),
+            Secenek(id: 211, secenek: "Evet"),
+            Secenek(id: 22, secenek: "Hayır"),
           ],
         ),
       );
-    } else if (id == 0211) {
+    } else if (id == 211) {
       soruModelList.add(
         SoruModel(
-          id: 0211,
-          soru: "Kusma yaşadınız mı?",
+          id: 211,
+          soru: "Kusma yaşadınız mı",
           siklar: [
-            Secenek(id: 02111, secenek: "evet"),
-            Secenek(id: 02112, secenek: "hayır"),
+            Secenek(id: 2111, secenek: "Evet"),
+            Secenek(id: 2112, secenek: "Hayır"),
           ],
         ),
       );
-    } else if (id == 02111) {
+    } else if (id == 2111) {
       soruModelList.add(
         SoruModel(
-          id: 02111,
-          soru: "Gün içinde kaç kez kusuyorsunuz?",
+          id: 2111,
+          soru: "Günde kaç kez kusuyorsunuz",
           siklar: [
-            Secenek(id: 021111, secenek: "1-2"),
-            Secenek(id: 021112, secenek: "2 ve fazlası"),
+            Secenek(id: 21111, secenek: "1-2 kez "),
+            Secenek(id: 21112, secenek: "3 ve fazlası"),
           ],
         ),
       );
-    } else if (id == 022) {
+    } else if (id == 22) {
       soruModelList.add(
         SoruModel(
-          id: 022,
-          soru: "Midenizde yanma var mı?",
+          id: 22,
+          soru: "Karın ağrısı var mı ?",
           siklar: [
-            Secenek(id: 0221, secenek: "evet"),
-            Secenek(id: 0222, secenek: "hayır"),
+            Secenek(id: 211, secenek: "Evet"),
+            Secenek(id: 222, secenek: "Hayır"),
           ],
         ),
       );
-    } else if (id == 0222) {
+    }
+    //--------------------------------------------------------
+    else if (id == 3) {
       soruModelList.add(
         SoruModel(
-          id: 0222,
-          soru: "Kusma yaşıyor musunuz?",
+          id: 3,
+          soru: "Boğaz ağrınız var mı ? ",
           siklar: [
-            Secenek(id: 02221, secenek: "evet"),
-            Secenek(id: 02222, secenek: "hayır"),
+            Secenek(id: 31, secenek: "evet"),
+            Secenek(id: 311, secenek: "hayır"),
           ],
         ),
       );
-    } else if (id == 0212) {
+    } else if (id == 31) {
       soruModelList.add(
         SoruModel(
-          id: 0212,
-          soru: "Karın ağrınız var mı?",
+          id: 31,
+          soru: "Ateşiniz var mı ?",
           siklar: [
-            Secenek(id: 02121, secenek: "evet"),
-            Secenek(id: 02122, secenek: "hayır"),
+            Secenek(id: 311, secenek: "evet"),
+            Secenek(id: 312, secenek: "hayır"),
           ],
         ),
       );
-    } //---------------------------------------------------------
-    if (id == 03) {
+    } else if (id == 311) {
       soruModelList.add(
         SoruModel(
-          id: 03,
-          soru: "Boğaz ağrınız var mı?",
-          siklar: [
-            Secenek(id: 031, secenek: "evet"),
-            Secenek(id: 032, secenek: "hayır"),
-          ],
-        ),
-      );
-    } else if (id == 031) {
-      soruModelList.add(
-        SoruModel(
-          id: 031,
-          soru: "Ateşiniz var mı?",
-          siklar: [
-            Secenek(id: 0311, secenek: "evet"),
-            Secenek(id: 0312, secenek: "hayır"),
-          ],
-        ),
-      );
-    } else if (id == 0311) {
-      soruModelList.add(
-        SoruModel(
-          id: 0311,
+          id: 311,
           soru: "Burun akıntınız var mı?",
           siklar: [
-            Secenek(id: 03111, secenek: "evet"),
-            Secenek(id: 03121, secenek: "hayır"),
+            Secenek(id: 3111, secenek: "evet"),
+            Secenek(id: 3112, secenek: "hayır"),
           ],
         ),
       );
-    } else if (id == 03111) {
+    } else if (id == 3111) {
       soruModelList.add(
         SoruModel(
-          id: 03111,
-          soru: "Baş ağrınız var mı?",
+          id: 3111,
+          soru: "Baş ağrınız var mı",
           siklar: [
-            Secenek(id: 031111, secenek: "evet"),
-            Secenek(id: 031211, secenek: "hayır"),
+            Secenek(id: 31111, secenek: "evet"),
+            Secenek(id: 31112, secenek: "hayır"),
           ],
         ),
       );
-    } else if (id == 032) {
+    }
+    //-------------------------------------------------------------
+    else if (id == 4) {
       soruModelList.add(
         SoruModel(
-          id: 032,
-          soru: "Halsizlik hissediyor musunuz?",
+          id: 4,
+          soru: "Baş ağrınız var mı",
           siklar: [
-            Secenek(id: 0321, secenek: "evet"),
-            Secenek(id: 0322, secenek: "hayır"),
+            Secenek(id: 41, secenek: "evet"),
+            Secenek(id: 42, secenek: "hayır"),
           ],
         ),
       );
-    } else if (id == 0322) {
+    } else if (id == 41) {
       soruModelList.add(
         SoruModel(
-          id: 0322,
-          soru: "Ateşiniz var mı?",
+          id: 41,
+          soru: "Baş dönmesi yaşıyor musunuz ?",
           siklar: [
-            Secenek(id: 03211, secenek: "evet"),
-            Secenek(id: 03222, secenek: "hayır"),
+            Secenek(id: 411, secenek: "evet"),
+            Secenek(id: 412, secenek: "hayır"),
           ],
         ),
       );
-    } //-------------------------------------------------------------
-    if (id == 04) {
+    } else if (id == 412) {
       soruModelList.add(
         SoruModel(
-          id: 04,
-          soru: "Baş ağrınız var mı?",
+          id: 412,
+          soru: "Öksürük var mı ?",
           siklar: [
-            Secenek(id: 041, secenek: "evet"),
-            Secenek(id: 042, secenek: "hayır"),
+            Secenek(id: 4121, secenek: "evet"),
+            Secenek(id: 4122, secenek: "hayır"),
           ],
         ),
       );
-    } else if (id == 041) {
+    } else if (id == 42) {
       soruModelList.add(
         SoruModel(
-          id: 041,
-          soru: "Baş dönmesi yaşıyor musunuz?",
+          id: 42,
+          soru: "Boğaz ağrınız var mı ?",
           siklar: [
-            Secenek(id: 0411, secenek: "evet"),
-            Secenek(id: 0412, secenek: "hayır"),
+            Secenek(id: 421, secenek: "evet"),
+            Secenek(id: 422, secenek: "hayır"),
           ],
         ),
       );
-    } else if (id == 0411) {
+    } else if (id == 421) {
       soruModelList.add(
         SoruModel(
-          id: 0411,
-          soru: "Öksürüğünüz var mı?",
+          id: 421,
+          soru: "Balgam atıyor musunuz ?",
           siklar: [
-            Secenek(id: 04111, secenek: "evet"),
-            Secenek(id: 04121, secenek: "hayır"),
+            Secenek(id: 4211, secenek: "evet"),
+            Secenek(id: 4212, secenek: "hayır"),
           ],
         ),
       );
-    } else if (id == 042) {
+    } else if (id == 4212) {
       soruModelList.add(
         SoruModel(
-          id: 042,
-          soru: "Boğaz ağrınız var mı?",
+          id: 4212,
+          soru: "Nefes almakta güçlük çekiyor musunuz",
           siklar: [
-            Secenek(id: 0421, secenek: "evet"),
-            Secenek(id: 0422, secenek: "hayır"),
+            Secenek(id: 42121, secenek: "evet"),
+            Secenek(id: 422, secenek: "hayır"),
           ],
         ),
       );
-    } else if (id == 0421) {
+    }
+    //-------------------------------------------------------------
+    else if (id == 5) {
       soruModelList.add(
         SoruModel(
-          id: 0421,
-          soru: "Balgam atıyor musunuz?",
+          id: 5,
+          soru: "Öksürüğünüz var mı",
           siklar: [
-            Secenek(id: 04211, secenek: "evet"),
-            Secenek(id: 04221, secenek: "hayır"),
+            Secenek(id: 51, secenek: "evet"),
+            Secenek(id: 52, secenek: "hayır"),
           ],
         ),
       );
-    } else if (id == 04211) {
+    } else if (id == 51) {
       soruModelList.add(
         SoruModel(
-          id: 04211,
-          soru: "Nefes almakta güçlük çekiyor musunuz?",
+          id: 51,
+          soru: "Burun akıntısı var mı",
           siklar: [
-            Secenek(id: 042111, secenek: "evet"),
-            Secenek(id: 042211, secenek: "hayır"),
+            Secenek(id: 511, secenek: "evet"),
+            Secenek(id: 512, secenek: "hayır"),
           ],
         ),
       );
-    } //-----------------------------------------------------------------
-    if (id == 05) {
+    } else if (id == 511) {
       soruModelList.add(
         SoruModel(
-          id: 05,
-          soru: "Öksürüğünüz var mı?",
+          id: 511,
+          soru: "Balgam atıyor musunuz",
           siklar: [
-            Secenek(id: 051, secenek: "evet"),
-            Secenek(id: 052, secenek: "hayır"),
+            Secenek(id: 5111, secenek: "evet"),
+            Secenek(id: 5112, secenek: "hayır"),
           ],
         ),
       );
-    } else if (id == 051) {
+    } else if (id == 52) {
       soruModelList.add(
         SoruModel(
-          id: 051,
-          soru: "Burun akıntısı var mı?",
+          id: 52,
+          soru: "Nefes darlığınız var mı ",
           siklar: [
-            Secenek(id: 0511, secenek: "evet"),
-            Secenek(id: 0512, secenek: "hayır"),
-          ],
-        ),
-      );
-    } else if (id == 0511) {
-      soruModelList.add(
-        SoruModel(
-          id: 0511,
-          soru: "Balgam atıyor musunuz?",
-          siklar: [
-            Secenek(id: 05111, secenek: "evet"),
-            Secenek(id: 05121, secenek: "hayır"),
-          ],
-        ),
-      );
-    } else if (id == 052) {
-      soruModelList.add(
-        SoruModel(
-          id: 052,
-          soru: "Burun akıntısı var mı?",
-          siklar: [
-            Secenek(id: 0521, secenek: "evet"),
-            Secenek(id: 0522, secenek: "hayır"),
-          ],
-        ),
-      );
-    } else if (id == 0522) {
-      soruModelList.add(
-        SoruModel(
-          id: 0522,
-          soru: "Burun akıntısı var mı?",
-          siklar: [
-            Secenek(id: 05221, secenek: "evet"),
-            Secenek(id: 05222, secenek: "hayır"),
+            Secenek(id: 522, secenek: "evet"),
+            Secenek(id: 51, secenek: "hayır"),
           ],
         ),
       );
