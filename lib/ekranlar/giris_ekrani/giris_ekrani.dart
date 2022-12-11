@@ -20,6 +20,7 @@ class _GirisEkraniState extends State<GirisEkrani> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Colors.green,
         centerTitle: true,
         title: Text("Giriş Ekranı"),
       ),
@@ -54,19 +55,15 @@ class _GirisEkraniState extends State<GirisEkrani> {
               height: 10,
             ),
             Row(
-              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                Text(
-                  "Şifremi unuttum",
-                  style: TextStyle(color: Colors.blue),
-                ),
                 GestureDetector(
                   onTap: () {
                     NavigatorYardimcisi().push(context, KayitOlGoruntule());
                   },
                   child: Text(
                     "Kayıt ol",
-                    style: TextStyle(color: Colors.blue),
+                    style: TextStyle(color: Colors.green),
                   ),
                 ),
               ],

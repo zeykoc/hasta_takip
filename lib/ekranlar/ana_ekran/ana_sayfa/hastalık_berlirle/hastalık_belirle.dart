@@ -25,6 +25,7 @@ class _HastalikBelirleState extends State<HastalikBelirle> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Colors.green,
         title: Text("Hastalık Belirle"),
       ),
       body: SafeArea(

@@ -34,4 +34,8 @@ class FirebaseAuthKontroller {
       return false;
     }
   }
+
+  Future<void> logOut() async {
+    await auth.signOut();
+  }
 }

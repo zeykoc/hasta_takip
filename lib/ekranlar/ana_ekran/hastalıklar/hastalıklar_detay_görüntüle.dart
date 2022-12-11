@@ -18,24 +18,23 @@ class _HastalikDetayState extends State<HastalikDetay> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(),
+      appBar: AppBar(
+        backgroundColor: Colors.green,
+      ),
       body: SingleChildScrollView(
         child: Column(
           children: [
-            Text(
-              widget.hastalik.name,
-            ),
-            Divider(
-              color: Colors.blue,
-            ),
             Text(
               widget.hastalik.baslik,
               style: TextStil().baslikstyle,
             ),
             Divider(
-              color: Colors.blue,
+              color: Colors.green,
             ),
-            Text(widget.hastalik.uzunAciklama),
+            Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 12),
+              child: Text(widget.hastalik.uzunAciklama),
+            ),
             Divider(),
             Text(
               "Belirtileri",

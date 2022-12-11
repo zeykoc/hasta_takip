@@ -18,6 +18,7 @@ class _KayitOlGoruntuleState extends State<KayitOlGoruntule> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Colors.green,
         centerTitle: true,
         title: Text(
           "Kayıt Ol",

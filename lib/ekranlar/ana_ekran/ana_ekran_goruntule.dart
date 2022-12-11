@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:hastatakip/ekranlar/ana_ekran/ana_sayfa/ana_sayfa.dart';
 import 'package:hastatakip/ekranlar/ana_ekran/hastal%C4%B1klar/hastal%C4%B1klar_g%C3%B6r%C3%BCn%C3%BCm.dart';
+import 'package:hastatakip/ekranlar/ana_ekran/profil/profil_goruntule.dart';
 
 class AnaEkranGoruntule extends StatefulWidget {
   const AnaEkranGoruntule({Key? key}) : super(key: key);
@@ -16,6 +17,7 @@ class _AnaEkranGoruntuleState extends State<AnaEkranGoruntule> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Colors.green,
         title: Text("Ana ekran"),
       ),
       body: Column(
@@ -27,11 +29,7 @@ class _AnaEkranGoruntuleState extends State<AnaEkranGoruntule> {
               children: [
                 AnaSayfa(),
                 HastaliklarGorunum(),
-                Container(
-                  child: Center(
-                    child: Text("profil"),
-                  ),
-                ),
+                ProfilGoruntule(),
               ],
             ),
           ),
@@ -42,7 +40,7 @@ class _AnaEkranGoruntuleState extends State<AnaEkranGoruntule> {
                 boxShadow: [
                   // kutunun üstüne gölge vermemizi sağlar
                   BoxShadow(
-                    color: Colors.blue.withOpacity(0.5),
+                    color: Colors.green.withOpacity(0.5),
                     spreadRadius: 0,
                     blurRadius: 8,
                     offset: Offset(0, -3), // changes position of shadow
@@ -116,12 +114,13 @@ class _AnaEkranGoruntuleState extends State<AnaEkranGoruntule> {
                 children: [
                   Icon(
                     icon,
-                    color: index == currentIndex ? Colors.blue : null,
+                    color: index == currentIndex ? Colors.green : Colors.brown,
                   ),
                   Text(
                     text,
                     style: TextStyle(
-                      color: index == currentIndex ? Colors.blue : null,
+                      color:
+                          index == currentIndex ? Colors.green : Colors.brown,
                     ),
                   ),
                 ],

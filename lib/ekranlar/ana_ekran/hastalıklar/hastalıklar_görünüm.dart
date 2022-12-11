@@ -53,7 +53,16 @@ class _HastaliklarGorunumState extends State<HastaliklarGorunum> {
             Column(
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
-                Text(model.name),
+                SizedBox(
+                  height: 12,
+                ),
+                Text(
+                  model.name,
+                  style: TextStyle(fontSize: 18),
+                ),
+                SizedBox(
+                  height: 12,
+                ),
                 Text(model.kisaAciklama),
               ],
             )

@@ -11,8 +11,12 @@ class HastalikBelirleController extends GetxController {
         sonuc:
             "Yüksek ihtimalle yüksek tansiyon hastası olabilirsiniz.Bir sağlık kuruluşuna başvurunuz. "),
     SonucModel(id: 1212, sonuc: "Bir sağlık kuruluşuna başvurunuz."),
-    SonucModel(id: 11111, sonuc: "sonuç az sonucu"),
-    SonucModel(id: 11112, sonuc: "sonuç çok sonucu"),
+    SonucModel(
+        id: 11111,
+        sonuc:
+            "Sinüzit olabilirsiniz. Bol sıvı tüketerek mukus tabakasının incelmesini sağlayın. Bulunduğunuz ortam nemsiz ve havasız olmasın. Uygun şartlarda nemlendirin. Sigara kullanmayın. Sıcak su ile tuzu karıştırın. Ilık kıvama getirip burnunuza sıkın. Baharatlı yiyecekler sinüzitinize iyi gelecelektir."),
+    SonucModel(id: 11112, sonuc: "Bir sağlık kuruluşuna başvurunuz."),
+    SonucModel(id: 122, sonuc: "Bir sağlık kuruluşuna başvurunuz"),
     SonucModel(
         id: 21111,
         sonuc:
